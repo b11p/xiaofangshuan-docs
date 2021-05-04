@@ -7,7 +7,11 @@ lang: zh-CN
 消防栓分身可以帮助您用自己的 QQ 号提供消防栓的功能，以缓解封号、风控等问题。
 
 ## 部署
-- 下载安装任何 OneBot 实现（至少应该实现了反向 WebSocket 通信方式）。
+### 方法一：使用消防栓分身部署工具
+*WIP*
+
+### 方法二：自行配置 OneBot
+- 下载安装任何 [OneBot 实现](https://onebot.page.moe/ecosystem.html#onebot-%E5%AE%9E%E7%8E%B0)（至少应该实现了反向 WebSocket 通信方式）。
 - 设置远程服务器为 `https://public-service.b11p.com/`。
 - 设置 `AccessToken` 为 `bleatingsheep.org`。
 - 打开运行。
@@ -20,7 +24,7 @@ lang: zh-CN
 由于您部署的分身专为您服务，收发消息少，更不容易被风控。
 
 ### 风控处理更方便
-就算分身也被风控了，您也可以自行处理，如换另一个号，不用等我处理，避免影响您使用。
+就算分身也被风控了，您也可以自行处理，如换另一个号，不用等开发者处理，避免影响您使用。
 
 ## 风险
 用 [go-cqhttp](https://docs.go-cqhttp.org/) 等 OneBot 实现登录 QQ 号，使您的 QQ 号有被风控乃至封号的风险。出现这种情况，开发者概不负责，请自行斟酌是否使用。**强烈推荐用小号提供消防栓分身功能。**
