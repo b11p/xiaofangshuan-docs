@@ -1,4 +1,7 @@
 module.exports = {
     title: '消防栓帮助',
-    description: ''
+    description: '',
+    themeConfig: {
+        search: false
+    }
 }
