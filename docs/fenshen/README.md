@@ -11,7 +11,7 @@ lang: zh-CN
 下载 [消防栓分身2.zip](https://res.bleatingsheep.org/%E6%B6%88%E9%98%B2%E6%A0%93%E5%88%86%E8%BA%AB2.zip) 并解压，打开 `config.hjson` 文件，输入账号和密码，然后运行 `go-cqhttp.exe` 文件。
 
 ::: tip
-仅支持 x86_64 平台。如果需要运行在其他平台（如 x86 或 ARM32），可以自行前往 go-cqhttp 的 [Release](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.40-fix5) 页面下载。当前推荐 v0.9.40-fix5 版本。
+压缩包中包含 Windows 和 Linux x86_64 平台的可执行文件。如果需要运行在其他平台（如 x86 或 ARM），可以自行前往 go-cqhttp 的 [Release](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.40-fix5) 页面下载。当前推荐 v0.9.40-fix5 版本。
 :::
 
 ::: tip
@@ -20,10 +20,6 @@ lang: zh-CN
 
 ::: warning
 **不要**使用管理员权限运行。
-:::
-
-::: tip
-压缩文件中还包含了 Linux x86_64 平台的可执行文件，Linux 平台运行。其他平台可以在上面的链接下载对应的文件。
 :::
 
 ### 方法二：使用消防栓分身部署工具
@@ -53,3 +49,6 @@ lang: zh-CN
 所有事件都会传到消防栓服务器，包括聊天消息和其他由 OneBot 实现上报的事件。这是必要的，因为消防栓需要从聊天消息中提取指令。
 
 相比拉消防栓账号入群，用分身会发送更少的信息给开发者。 -->
+
+## 限制
+用分身有一些限制，如不能用分身绑定 osu! 账号等，这是为了确保安全而特意设置的。鉴于消防栓主号暂停服务，请未绑定账号者暂时用 `where` 等命令查询。
