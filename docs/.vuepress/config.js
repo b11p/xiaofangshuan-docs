@@ -3,6 +3,7 @@ module.exports = {
     description: '',
     themeConfig: {
         nav: [
+            { text: '主页', link: '/' },
             { text: '分身', link: '/fenshen/' },
         ],
         search: false
