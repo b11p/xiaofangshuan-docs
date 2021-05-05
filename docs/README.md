@@ -13,6 +13,4 @@ lang: zh-CN
 见 [osu! 相关功能](https://github.com/b11p/OsuQqBotForNewbieGroup/wiki/osu!-%E7%9B%B8%E5%85%B3%E5%8A%9F%E8%83%BD)、[图片功能](https://github.com/b11p/OsuQqBotForNewbieGroup/wiki/%E5%9B%BE%E7%89%87%E5%8A%9F%E8%83%BD)、[实用功能](https://github.com/b11p/OsuQqBotForNewbieGroup/wiki/%E5%AE%9E%E7%94%A8%E5%8A%9F%E8%83%BD)。
 
 ## 开源地址
-消防栓在 GitHub 上用 AGPL 协议开源。
-
-https://github.com/b11p/OsuQqBotForNewbieGroup
+消防栓在 GitHub 上用 AGPL 协议开源。请点击右上角“GitHub”链接查看源码。
