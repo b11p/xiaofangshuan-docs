@@ -15,7 +15,7 @@ lang: zh-CN
 下载 [消防栓分身2.zip](https://res.bleatingsheep.org/%E6%B6%88%E9%98%B2%E6%A0%93%E5%88%86%E8%BA%AB2.zip) 并解压，打开 `config.hjson` 文件，输入账号和密码，然后运行 `go-cqhttp.exe` 文件。
 
 ::: tip
-压缩包中包含 Windows 和 Linux x86_64 平台的可执行文件。如果需要运行在其他平台（如 x86 或 ARM），可以自行前往 go-cqhttp 的 [Release](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.40-fix5) 页面下载。当前推荐 v0.9.40-fix5 版本。
+压缩包中包含 Windows 和 Linux x86_64 平台的可执行文件。如果需要运行在其他平台（如 x86 或 ARM），可以自行前往 go-cqhttp 的 [Release](https://github.com/Mrs4s/go-cqhttp/releases) 页面下载。
 :::
 
 ::: warning
