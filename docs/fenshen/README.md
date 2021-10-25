@@ -12,22 +12,18 @@ lang: zh-CN
 
 ## 部署
 ### 方法一：使用开发者打包好的 go-cqhttp 部署
-下载 [消防栓分身2.zip](https://res.bleatingsheep.org/%E6%B6%88%E9%98%B2%E6%A0%93%E5%88%86%E8%BA%AB2.zip) 并解压，打开 `config.hjson` 文件，输入账号和密码，然后运行 `go-cqhttp.exe` 文件。
+下载 [消防栓分身.zip](%E6%B6%88%E9%98%B2%E6%A0%93%E5%88%86%E8%BA%AB.zip) 并解压，打开 `config.yml` 文件，输入账号和密码，然后在控制台运行 `go-cqhttp.exe` 文件。
 
 ::: tip
-压缩包中包含 Windows 和 Linux x86_64 平台的可执行文件。如果需要运行在其他平台（如 x86 或 ARM），可以自行前往 go-cqhttp 的 [Release](https://github.com/Mrs4s/go-cqhttp/releases) 页面下载。
+压缩包中包含 Windows 和 Linux x86 平台的可执行文件。如果需要运行在其他平台（如 ARM），可以自行前往 go-cqhttp 的 [Release](https://github.com/Mrs4s/go-cqhttp/releases) 页面下载。将下载到的文件解压到分身所在目录覆盖，然后运行即可。
 :::
 
 ::: warning
 **不要**使用管理员权限运行。
 :::
 
-::: danger
-此前出现的重复发送私聊消息实际上是因为 go-cqhttp 反复上报私聊命令。此处提供的版本也会出现这种现象，请斟酌考虑再决定是否使用。
-:::
-
 ### 方法二：使用消防栓分身启动器
-下载 [消防栓分身启动器](https://res.bleatingsheep.org/xfs%20launcher.zip)，解压后打开，填写 QQ 号和密码运行，按照新出现的窗口中的提示进行安全认证，即可启动消防栓分身。
+下载 [消防栓分身启动器](xfs%20launcher.zip)，解压后打开，填写 QQ 号和密码运行，按照新出现的窗口中的提示进行安全认证，即可启动消防栓分身。
 
 ::: warning
 请务必先解压再打开，不要直接在压缩包里双击运行。
@@ -38,12 +34,12 @@ lang: zh-CN
 :::
 
 ::: tip
-在启动器中填写的账号密码仅用于登录 QQ，不会被发送到消防栓服务器。您可以在下载的压缩文件中查看启动器的代码，在[仓库](https://github.com/Mrs4s/go-cqhttp)中查看 go-cqhttp 的代码。
+在启动器中填写的账号密码仅用于登录 QQ，不会被发送到消防栓服务器。您可以在 [b11p/XfsLauncher](https://github.com/b11p/XfsLauncher) 仓库检阅启动器的代码，在 [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 仓库检阅 go-cqhttp 的代码。
 :::
 
 ### 方法三：自行配置 OneBot
-- 下载安装任何 [OneBot 实现](https://onebot.page.moe/ecosystem.html#onebot-%E5%AE%9E%E7%8E%B0)（至少应该实现了反向 WebSocket 通信方式）。
-- 设置远程服务器为 `https://public-service.b11p.com/`。
+- 下载安装任何 [OneBot 实现](https://onebot.dev/ecosystem.html#onebot-%E5%AE%9E%E7%8E%B0)（至少应该实现了反向 WebSocket 通信方式）。
+- 开启反向 WebSocket，设置远程服务器为 `https://public-service.b11p.com/`。
 - 设置 `AccessToken` 为 `bleatingsheep.org`。
 - 打开运行。
 
@@ -60,7 +56,7 @@ lang: zh-CN
 ## 风险
 用 [go-cqhttp](https://docs.go-cqhttp.org/) 等 OneBot 实现登录 QQ 号，使您的 QQ 号有被风控乃至封号的风险。出现这种情况，开发者概不负责，请自行斟酌是否使用。**强烈推荐用小号提供消防栓分身功能。**
 
-所有事件都会传到消防栓服务器，包括聊天消息和其他由 OneBot 实现上报的事件。这是必要的，因为消防栓需要从聊天消息中提取指令。相比拉消防栓账号入群，用分身会发送更少的信息给开发者。
+所有事件都会传到消防栓服务器，包括聊天消息和其他由 OneBot 实现上报的事件。这是必要的，因为消防栓需要从聊天消息中提取指令。相比拉消防栓账号入群，用分身会向开发者发送更少的信息。
 
 ## 限制
-用分身有一些限制，如不能用分身绑定 osu! 账号等，这是为了确保安全而特意设置的。鉴于消防栓主号暂停服务，请未绑定账号者暂时用 `where` 等命令查询。
+用分身有一些限制，如不能用分身绑定 osu! 账号等，这是为了确保安全而特意设置的。鉴于消防栓主号暂停服务，请未绑定账号者暂时用 `where` 等命令查询。此外，[osu! 新人群](https://jq.qq.com/?_wv=1027&k=xqiXwdo5)中的分身具有绑定权限，绑定后对所有分身都生效。如果您主模式（戳泡泡）的 PP 小于 2000，欢迎加入。
