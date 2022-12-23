@@ -17,16 +17,8 @@ CMBC CNY 6.5384000
 CIB CNY 6.5418
 ```
 
-## 基金估值
-发送[且慢估值](https://qieman.com/idx-eval)的截图。
-### 示例
-```
-估值
-```
-
 ## IP 归属地查询
-查询 IP 归属地。IPv4 数据来自 [IPIP](https://www.ipip.net/document/api_city.html)，IPv6 数据来自 [ip.zxinc.org
-](https://ip.zxinc.org/ipquery/)。
+查询 IP 归属地。IPv4 数据来自 [IPIP](https://www.ipip.net/document/api_city.html)，IPv6 数据来自 [ip.zxinc.org](https://ip.zxinc.org/ipquery/)。
 ### 示例
 ```
 ip 2404:6800:400a:809::2004
@@ -37,8 +29,15 @@ ip 2404:6800:400a:809::2004
 ```
 
 ## 日本新冠数据
-发送 https://toyokeizai.net/sp/visual/tko/covid19/en.html 上半部分的截图。
+发送 https://toyokeizai.net/sp/visual/tko/covid19/index.html 上半部分的截图。
 ### 示例
 ```
 日本完了吗
+```
+
+## 美国新冠数据
+发送 https://www.nytimes.com/interactive/2021/us/covid-cases.html 部分截图。
+### 示例
+```
+美国完了吗
 ```
