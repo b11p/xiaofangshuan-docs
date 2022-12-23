@@ -13,7 +13,7 @@ lang: zh-CN
 消防栓现在加了接近 400 个群、超过 700 个好友，消息收发可能效频繁，容易被风控和封号，导致服务不可用。为了缓解此问题，建议您用自己的 QQ 号提供服务。见[消防栓分身](fenshen/)页面。
 
 ::: tip
-消防栓曾经使用 go-cqhttp，现在使用 [onebot-kotlin](https://github.com/yyuueexxiinngg/onebot-kotlin)。
+消防栓使用 go-cqhttp。
 :::
 
 ## 开源地址
