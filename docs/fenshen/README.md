@@ -38,10 +38,14 @@ lang: zh-CN
 :::
 
 ### 方法三：自行配置 OneBot
-- 下载安装任何 [OneBot 实现](https://onebot.dev/ecosystem.html#onebot-%E5%AE%9E%E7%8E%B0)（至少应该实现了反向 WebSocket 通信方式）。
-- 开启反向 WebSocket，设置远程服务器为 `https://public-service.b11p.com/`。
+- 下载安装任何 [OneBot 11 实现](https://onebot.dev/ecosystem.html#onebot-%E5%AE%9E%E7%8E%B0-1)（至少应该实现了反向 WebSocket 通信方式）。推荐使用 [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp)。
+- 开启反向 WebSocket，设置远程服务器为 `wss://public-service.b11p.com/`。
 - 设置 `AccessToken` 为 `bleatingsheep.org`。
 - 打开运行。
+
+::: warning
+目前只支持 OneBot 11，不支持 12。
+:::
 
 ## 原理
 在分身的机器上收发 QQ 消息。所有消息都会被发送给远程服务器，实际业务逻辑还是在远程服务器上执行。
