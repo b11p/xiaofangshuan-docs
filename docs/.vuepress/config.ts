@@ -22,6 +22,7 @@ export default defineUserConfig({
                             "/gongneng/osu.md",
                             "/gongneng/tupian.md",
                             "/gongneng/shiyong.md",
+                            "/gongneng/yule.md",
                         ]
                     },
                     { text: '分身', link: '/fenshen/' },
