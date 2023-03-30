@@ -25,6 +25,15 @@ export default defineUserConfig({
                     },
                     { text: '分身', link: '/fenshen/' },
                 ],
+                sidebar: {
+                    "/gongneng/": [
+                        "/gongneng/bangding.md",
+                        "/gongneng/osu.md",
+                        "/gongneng/tupian.md",
+                        "/gongneng/shiyong.md",
+                        "/gongneng/yule.md",
+                    ],
+                },
                 editLink: true,
                 editLinkText: '在 GitHub 上编辑此页',
                 tip: '提示',
