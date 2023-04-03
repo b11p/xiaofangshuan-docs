@@ -23,7 +23,7 @@ lang: zh-CN
 :::
 
 ### 方法二：使用消防栓分身启动器
-下载 [消防栓分身启动器](xfs%20launcher.zip)，解压后打开，填写 QQ 号和密码运行，按照新出现的窗口中的提示进行安全认证，即可启动消防栓分身。
+下载 [消防栓分身启动器](https://akibanzu-my.sharepoint.com/:u:/g/personal/bleatingsheep_akibanzu_onmicrosoft_com/EW8IDqVlghBPq6tvp8XtbpsBoU41R-do2jobY7_U_VWUxg?e=Rzrsb4)，解压后打开，填写 QQ 号和密码运行，按照新出现的窗口中的提示进行安全认证，即可启动消防栓分身。
 
 ::: warning
 请务必先解压再打开，不要直接在压缩包里双击运行。
