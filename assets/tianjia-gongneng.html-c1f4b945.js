@@ -1,0 +1,1 @@
+import{_ as a,o as n,c as t,a as e,b as o}from"./app-1ee6bc1a.js";const c={},r=e("h1",{id:"添加功能",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#添加功能","aria-hidden":"true"},"#"),o(" 添加功能")],-1),s=[r];function _(i,d){return n(),t("div",null,s)}const l=a(c,[["render",_],["__file","tianjia-gongneng.html.vue"]]);export{l as default};

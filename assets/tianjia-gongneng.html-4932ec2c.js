@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-3e4f38e1","path":"/kaifa/tianjia-gongneng.html","title":"添加功能","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1685076015000},"filePathRelative":"kaifa/tianjia-gongneng.md"}');export{a as data};

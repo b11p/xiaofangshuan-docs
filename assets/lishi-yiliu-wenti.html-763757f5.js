@@ -1,0 +1,1 @@
+const i=JSON.parse('{"key":"v-4b8fab59","path":"/kaifa/lishi-yiliu-wenti.html","title":"历史遗留问题","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1685076015000},"filePathRelative":"kaifa/lishi-yiliu-wenti.md"}');export{i as data};
