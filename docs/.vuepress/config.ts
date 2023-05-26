@@ -24,6 +24,7 @@ export default defineUserConfig({
                         ]
                     },
                     { text: '分身', link: '/fenshen/' },
+                    { text: '开发', link: '/kaifa/' },
                 ],
                 sidebar: {
                     "/gongneng/": [
@@ -33,6 +34,12 @@ export default defineUserConfig({
                         "/gongneng/shiyong.md",
                         "/gongneng/yule.md",
                     ],
+                    "/kaifa/": [
+                        "/kaifa/README.md",
+                        "/kaifa/mulu-jiegou.md",
+                        "/kaifa/tianjia-gongneng.md",
+                        "/kaifa/lishi-yiliu-wenti.md",
+                    ]
                 },
                 editLink: true,
                 editLinkText: '在 GitHub 上编辑此页',
@@ -50,7 +57,7 @@ export default defineUserConfig({
             },
         },
         repo: 'b11p/OsuQqBotForNewbieGroup',
-        lastUpdated: false,
+        lastUpdated: true,
         contributors: false,
         docsRepo: 'b11p/xiaofangshuan-docs',
         docsBranch: 'main',
