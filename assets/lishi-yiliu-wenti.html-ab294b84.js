@@ -1,1 +1,0 @@
-import{_ as t,o as a,c as i,a as e,b as s}from"./app-1ee6bc1a.js";const c={},n=e("h1",{id:"历史遗留问题",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#历史遗留问题","aria-hidden":"true"},"#"),s(" 历史遗留问题")],-1),o=[n];function r(_,l){return a(),i("div",null,o)}const h=t(c,[["render",r],["__file","lishi-yiliu-wenti.html.vue"]]);export{h as default};

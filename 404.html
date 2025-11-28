@@ -1,33 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="generator" content="VuePress 2.0.0-beta.62">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.26" />
     <style>
       :root {
-        --c-bg: #fff;
+        --vp-c-bg: #fff;
       }
-      html.dark {
-        --c-bg: #22272e;
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
       }
-      html, body {
-        background-color: var(--c-bg);
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
       }
     </style>
     <script>
-      const userMode = localStorage.getItem('vuepress-color-scheme');
-			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
-				document.documentElement.classList.toggle('dark', true);
-			}
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
     </script>
     <title>消防栓帮助</title><meta name="description" content="">
-    <link rel="preload" href="/assets/style-8a38cc2d.css" as="style"><link rel="stylesheet" href="/assets/style-8a38cc2d.css">
-    <link rel="modulepreload" href="/assets/app-1ee6bc1a.js"><link rel="modulepreload" href="/assets/404.html-f9875e7b.js"><link rel="modulepreload" href="/assets/404.html-3379723f.js"><link rel="prefetch" href="/assets/index.html-072c3b37.js" as="script"><link rel="prefetch" href="/assets/index.html-ff5eb696.js" as="script"><link rel="prefetch" href="/assets/bangding.html-43f50d16.js" as="script"><link rel="prefetch" href="/assets/osu.html-575d1016.js" as="script"><link rel="prefetch" href="/assets/shiyong.html-d45a4679.js" as="script"><link rel="prefetch" href="/assets/tupian.html-c9ebea34.js" as="script"><link rel="prefetch" href="/assets/yule.html-41a564eb.js" as="script"><link rel="prefetch" href="/assets/index.html-d8b6cbad.js" as="script"><link rel="prefetch" href="/assets/lishi-yiliu-wenti.html-763757f5.js" as="script"><link rel="prefetch" href="/assets/mulu-jiegou.html-282f489d.js" as="script"><link rel="prefetch" href="/assets/tianjia-gongneng.html-4932ec2c.js" as="script"><link rel="prefetch" href="/assets/index.html-230fdb13.js" as="script"><link rel="prefetch" href="/assets/index.html-d7b95675.js" as="script"><link rel="prefetch" href="/assets/bangding.html-78c59747.js" as="script"><link rel="prefetch" href="/assets/osu.html-d4b3aeb7.js" as="script"><link rel="prefetch" href="/assets/shiyong.html-de2a986e.js" as="script"><link rel="prefetch" href="/assets/tupian.html-fe892b55.js" as="script"><link rel="prefetch" href="/assets/yule.html-4bf402df.js" as="script"><link rel="prefetch" href="/assets/index.html-b9c055bf.js" as="script"><link rel="prefetch" href="/assets/lishi-yiliu-wenti.html-ab294b84.js" as="script"><link rel="prefetch" href="/assets/mulu-jiegou.html-0a66b36d.js" as="script"><link rel="prefetch" href="/assets/tianjia-gongneng.html-c1f4b945.js" as="script">
+    <link rel="preload" href="/assets/style-C5QREZ3P.css" as="style"><link rel="stylesheet" href="/assets/style-C5QREZ3P.css">
+    <link rel="modulepreload" href="/assets/app-BPChvyN9.js"><link rel="modulepreload" href="/assets/404.html-LwIw75yh.js">
+    <link rel="prefetch" href="/assets/index.html-BdjPFMgz.js" as="script"><link rel="prefetch" href="/assets/index.html-Byld4dls.js" as="script"><link rel="prefetch" href="/assets/bangding.html-DE6LIAag.js" as="script"><link rel="prefetch" href="/assets/osu.html-exrUBc2y.js" as="script"><link rel="prefetch" href="/assets/shiyong.html-CbYH9VBR.js" as="script"><link rel="prefetch" href="/assets/tupian.html-D3apOJHm.js" as="script"><link rel="prefetch" href="/assets/yule.html-DfhvV6g_.js" as="script"><link rel="prefetch" href="/assets/index.html-Bms1jUnN.js" as="script"><link rel="prefetch" href="/assets/lishi-yiliu-wenti.html-DmqU6OIf.js" as="script"><link rel="prefetch" href="/assets/mulu-jiegou.html-x3XOTFdJ.js" as="script"><link rel="prefetch" href="/assets/tianjia-gongneng.html-CX6BTTq_.js" as="script">
   </head>
   <body>
-    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>我们好像进入了错误的链接。</blockquote><a href="/" class="">返回首页</a></div></main></div><!----><!--]--></div>
-    <script type="module" src="/assets/app-1ee6bc1a.js" defer></script>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-33d3430e><main class="page" data-v-33d3430e><div vp-content data-v-33d3430e><h1 data-v-33d3430e>404</h1><blockquote data-v-33d3430e>这里什么都没有。</blockquote><a class="route-link" href="/" data-v-33d3430e>返回首页</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-BPChvyN9.js" defer></script>
   </body>
 </html>
