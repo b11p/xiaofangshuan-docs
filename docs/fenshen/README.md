@@ -11,35 +11,11 @@ lang: zh-CN
 :::
 
 ## 部署
-### 方法一：使用开发者打包好的 go-cqhttp 部署
-下载 [消防栓分身.zip](%E6%B6%88%E9%98%B2%E6%A0%93%E5%88%86%E8%BA%AB.zip) 并解压，打开 `config.yml` 文件，输入账号和密码，然后在控制台运行 `go-cqhttp.exe` 文件。
+若要部署分身，需要自行配置 OneBot。
 
-::: tip
-压缩包中包含 Windows 和 Linux x86 平台的可执行文件。如果需要运行在其他平台（如 ARM），可以自行前往 go-cqhttp 的 [Release](https://github.com/Mrs4s/go-cqhttp/releases) 页面下载。将下载到的文件解压到分身所在目录覆盖，然后运行即可。
-:::
-
-::: warning
-**不要**使用管理员权限运行。
-:::
-
-### 方法二：使用消防栓分身启动器
-下载 [消防栓分身启动器](https://akibanzu-my.sharepoint.com/:u:/g/personal/bleatingsheep_akibanzu_onmicrosoft_com/EW8IDqVlghBPq6tvp8XtbpsBoU41R-do2jobY7_U_VWUxg?e=Rzrsb4)，解压后打开，填写 QQ 号和密码运行，按照新出现的窗口中的提示进行安全认证，即可启动消防栓分身。
-
-::: warning
-请务必先解压再打开，不要直接在压缩包里双击运行。
-:::
-
-::: tip
-初次登录可能需要加载较长时间，请耐心等待。
-:::
-
-::: tip
-在启动器中填写的账号密码仅用于登录 QQ，不会被发送到消防栓服务器。您可以在 [b11p/XfsLauncher](https://github.com/b11p/XfsLauncher) 仓库检阅启动器的代码，在 [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 仓库检阅 go-cqhttp 的代码。
-:::
-
-### 方法三：自行配置 OneBot
-- 下载安装任何 [OneBot 11 实现](https://onebot.dev/ecosystem.html#onebot-%E5%AE%9E%E7%8E%B0-1)（至少应该实现了反向 WebSocket 通信方式）。推荐使用 [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp)。
-- 开启反向 WebSocket，设置远程服务器为 `wss://public-service.b11p.com/`。
+- 下载安装任何 [OneBot 11 实现](https://onebot.dev/ecosystem.html#onebot-%E5%AE%9E%E7%8E%B0-1)（至少应该实现了反向 WebSocket 通信方式）。推荐使用 [NapCat](https://github.com/NapNeko/NapCatQQ)。
+- 开启 NapCat 并登录，进入网页控制台。
+- 添加反向 WebSocket 连接，设置远程服务器为 `wss://public-service.b11p.com/`。
 - 设置 `AccessToken` 为 `bleatingsheep.org`。
 - 打开运行。
 
@@ -58,7 +34,7 @@ lang: zh-CN
 就算分身也被风控了，您也可以自行处理，例如换另一个号，不用等开发者处理，避免影响您使用。
 
 ## 风险
-用 [go-cqhttp](https://docs.go-cqhttp.org/) 等 OneBot 实现登录 QQ 号，使您的 QQ 号有被风控乃至封号的风险。出现这种情况，开发者概不负责，请自行斟酌是否使用。**强烈推荐用小号提供消防栓分身功能。**
+用 [NapCat](https://github.com/NapNeko/NapCatQQ) 等 OneBot 实现登录 QQ 号，使您的 QQ 号有被风控乃至封号的风险。出现这种情况，开发者概不负责，请自行斟酌是否使用。**强烈推荐用小号提供消防栓分身功能。**
 
 所有事件都会传到消防栓服务器，包括聊天消息和其他由 OneBot 实现上报的事件。这是必要的，因为消防栓需要从聊天消息中提取指令。相比拉消防栓账号入群，用分身会向开发者发送更少的信息。
 
@@ -72,7 +48,7 @@ lang: zh-CN
 如您愿意共享您的分身给他人使用，可以加入下面的“灭火装置交流群”，告知开发者后将会把您的分身登记在下面。或者直接使用本页底部的链接，发起 PR。
 
 ::: warning
-请自行承担使用或提供分身的相应风险，开发者对一切风险概不负责。
+请自行承担使用或提供分身的相应风险，开发者对一切后果险概不负责。
 :::
 
 | 分身 QQ | 联系人 QQ | 联系 QQ 群 | 备注 |
